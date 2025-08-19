@@ -743,13 +743,7 @@ elif page == "Smart AI Assistant":
     if ai_assistant.use_gemini:
         st.success("🚀 **Enhanced AI Mode** - Full data analysis and insights available")
         st.markdown("""
-        **Ask ANY question about your customer data!** Examples:
-        - "Which customers have the potential to become instructors?"  
-        - "What are the most popular course combinations?"
-        - "Show me customers who might be interested in specialty courses"
-        - "What's the retention rate for different customer segments?"
-        - "Which customers haven't been active recently and might need re-engagement?"
-        - "What business insights can you provide about our customer base?"
+        **Ask ANY question about your customer data!**
         """)
     else:
         st.info("🔧 **Basic AI Mode** - For enhanced capabilities, add your Gemini API key in the sidebar")
