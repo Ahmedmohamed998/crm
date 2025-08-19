@@ -744,7 +744,7 @@ elif page == "Smart AI Assistant":
         st.success("🚀 **Enhanced AI Mode** - Full data analysis and insights available")
         st.markdown("""
         **Ask ANY question about your customer data!** Examples:
-        - "What's the average number of dives for customers who completed Advanced Open Water?"
+        - "What's the average number of dives for customers who completed Open Water?"
         - "Which customers have the potential to become instructors?"  
         - "What are the most popular course combinations?"
         - "Show me customers who might be interested in specialty courses"
