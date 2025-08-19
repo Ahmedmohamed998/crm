@@ -742,14 +742,11 @@ elif page == "Smart AI Assistant":
     # Show AI status
     if ai_assistant.use_gemini:
         st.success("🚀 **Enhanced AI Mode** - Full data analysis and insights available")
-        st.markdown("""
-        **Ask ANY question about your customer data!**
-        """)
     else:
         st.info("🔧 **Basic AI Mode** - For enhanced capabilities, add your Gemini API key in the sidebar")
     
     # Query input
-    user_query = st.text_input(
+    user_query = st.text_input("Ask ANY question about your customer data!",
         placeholder="e.g., What insights can you provide about customer retention?"
     )
     
