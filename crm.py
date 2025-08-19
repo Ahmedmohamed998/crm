@@ -750,7 +750,6 @@ elif page == "Smart AI Assistant":
     
     # Query input
     user_query = st.text_input(
-        "Ask any question about your diving center data:", 
         placeholder="e.g., What insights can you provide about customer retention?"
     )
     
