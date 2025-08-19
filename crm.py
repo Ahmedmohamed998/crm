@@ -75,12 +75,12 @@ st.markdown("""
 def load_sample_data():
     """Load and prepare sample data based on your CSV structure"""
     try:
-        data = pd.read_csv(r"E:\transformix\crm with ai\ssi customers.csv", encoding='utf-8')
+        data = pd.read_csv(r"ssi customers.csv", encoding='utf-8')
     except UnicodeDecodeError:
         try:
-            data = pd.read_csv(r"E:\transformix\crm with ai\ssi customers.csv", encoding='latin-1')
+            data = pd.read_csv(r"ssi customers.csv", encoding='latin-1')
         except UnicodeDecodeError:
-            data = pd.read_csv(r"E:\transformix\crm with ai\ssi customers.csv", encoding='cp1252')
+            data = pd.read_csv(r"ssi customers.csv", encoding='cp1252')
     
     df = pd.DataFrame(data)
     # Convert Dives column to numeric, handling non-numeric values
